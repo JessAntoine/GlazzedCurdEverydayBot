@@ -1,0 +1,15 @@
+{
+  "name": "glazzedcurd",
+  "version": "1.0.0",
+  "description": "Glazed curd everyday!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A. Ichshenko",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "node": "16.6.1"
+  }
+}
