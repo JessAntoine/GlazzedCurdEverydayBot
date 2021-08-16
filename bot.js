@@ -8,7 +8,7 @@ const imgCount = fs.readdirSync("./img").length - 1;
 const textChatID = "792985400364892180";
 
 let config = require('./config.json');
-let token = config.token;
+//let token = config.token;
 
 let bCurdWasSended = false;
 
