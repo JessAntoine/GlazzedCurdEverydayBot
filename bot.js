@@ -83,5 +83,4 @@ function GetRandomIntInRange(min = 0, max = 0)
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-//bot.login(process.env.BOT_TOKEN);
-bot.login('ODc2ODQwMDQ0NjI1ODA1MzM0.YRp67Q.2hF3eHwcjYY8Fr6ivaDmLerfeJc');
+bot.login(process.env.BOT_TOKEN);
