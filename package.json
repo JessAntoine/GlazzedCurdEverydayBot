@@ -9,6 +9,7 @@
   "author": "A. Ichshenko",
   "license": "ISC",
   "dependencies": {
+    "discord": "^0.8.2",
     "discord.js": "^13.1.0",
     "node": "16.6.1"
   }
