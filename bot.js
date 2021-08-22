@@ -14,12 +14,18 @@ let bCurdWasSended = false;
 
 bot.on("ready", function() {
     console.log(bot.user.username + " is ready!");
-    console.log("img count = " + imgCount);
+
+    //ссылка-приглашение для бота
+    bot.generateInvite(["ADMINISTRATOR"]).then(link => { 
+    console.log(link);
+    });
+
+    //console.log("img count = " + imgCount);
     RestartTimeChecker();
 
 });
 
-bot.on('message', (msg) => {
+bot.on('message', async msg => {
 
 });
 
